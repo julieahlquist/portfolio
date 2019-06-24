@@ -2,8 +2,8 @@ import React from "react"
 
 const Header = () => {
     return (
-        <nav>
-            <h1>My Portfolio</h1>
+        <nav className="header">
+                <h1 className="header-title">My Portfolio</h1>
         </nav>
     )
 }
