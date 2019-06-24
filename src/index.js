@@ -1,8 +1,17 @@
 import React from "react"
 import ReactDOM from "react-dom"
+import Hello from "./Hello"
+import Header from "./Header"
+import Footer from "./Footer"
 
-const HelloWorld = () => {
-    return <h2>Hello World</h2>
+const App = () => {
+    return (
+        <div>
+            <Header />
+            <Hello />
+            <Footer />
+        </div >
+    )
 };
 
-ReactDOM.render(<HelloWorld />, document.getElementById("app"))
+ReactDOM.render(<App />, document.getElementById("app"))
