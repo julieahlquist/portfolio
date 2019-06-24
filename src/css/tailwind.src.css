@@ -5,8 +5,9 @@
 /** Page **/ 
 
 .page-wrapper {
-    @apply min-h-screen;
+    @apply flex-wrap min-h-screen;
 }
+
 .page-content {
     @apply flex flex-col w-full fixed pin-l pin-y;
 }
@@ -38,4 +39,4 @@
 
 .content-text {
     @apply text-grey-dark;
-}
+};
