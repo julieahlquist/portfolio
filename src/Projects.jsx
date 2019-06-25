@@ -1,12 +1,13 @@
 import React, { Component } from "react"
 import axios from "axios"
-import ProjectCard from ".ProjectCard"
+import ProjectCard from "./ProjectCard"
+import { UndrawBookLover } from 'react-undraw-illustrations';
 
 class Projects extends Component {
     constructor () {
         super();
         this.state = {
-            projects: []
+            projects: [ ]
         };
     }
 
@@ -34,9 +35,23 @@ class Projects extends Component {
         }
 
         return (
-            <div>
-                <h1 className="content-text">My Projects</h1>
-                {projectsList}
+            <div className="content-wrapper">
+                <div className="flex mb-4">
+                    <div className="w-1/4">
+                        <UndrawBookLover primaryColor='#12283a' height='200px' />
+                    </div>
+                    <div className="w-3/4">
+                        <h1>My Projects</h1>
+                        <p>This is a selection of some of my projects I have been working on.</p>
+                    </div>
+
+                </div>
+
+                <div>
+                    <div className="flex flex-wrap mx-2 lg:-mx-4">
+                    {projectsList}
+                    </div>
+                </div>
             </div>
         )
     }
