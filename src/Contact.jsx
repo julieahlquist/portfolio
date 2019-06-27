@@ -1,10 +1,14 @@
 import React from 'react'
+import background_img from "./img/IMG_4238.jpg"
 
 const Contact = () => {
     return (
         <div className="content-wrapper">
+            <div className="test">
+                <img src={background_img} />
+            </div>
             <div className="flex flex-wrap mb-4">
-                <div className="w-full lg:w-3/4 md:w-1/2">
+                <div className="shadow-2xl">
                     <h1>Contacts</h1>
                     <p>Ipsum dolor dolorem consectetur est velit fugiat. Dolorem provident corporis fuga saepe distinctio ipsam? Et quos harum excepturi dolorum molestias?</p>
                 </div>

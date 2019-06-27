@@ -1,8 +1,11 @@
 import React from "react"
+import background_img from "./img/IMG_4238.jpg"
 
 const Hello = () => {
         return (
-            <p className="content-text"> Hello World</p>  
+            <div className="bg-scroll">
+            <img src={background_img} />
+            </div>
         )
 }
 
