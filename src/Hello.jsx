@@ -6,7 +6,7 @@ const Hello = () => {
             <div className="bg-scroll">
             <img src={background_img} />
             </div>
-        )
+    )
 }
 
 export default Hello

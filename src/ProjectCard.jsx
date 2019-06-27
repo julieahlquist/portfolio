@@ -4,12 +4,12 @@ const ProjectCard = (props) => {
     let project = props.project
     return (
         
-        <div key={project.id} className="overflow-hidden border">
-            <img src={project.image} className="block h-auto w-full" style={{ height: '150px', objectFit: 'cover' }} />
+        <div key={project.id} className="overflow-hidden">
+            <img src={project.image} className="block h-auto w-full rounded-full" style={{ height: '180px', objectFit: 'cover' }} />
 
-            <div className="px-6 py-4" style={{ minHeight: '150px' }} >
-                <div className="font-bold text-xl mb-2">{project.name}</div>
-                <p className="text-grey-darker text-base">
+            <div className="px-6 py-4" style={{ minHeight: '80px' }} >
+                <div className="font-mono text-xl text-center text-grey-darker mb-2">{project.name}</div>
+                <p className="text-grey-darker text-center text-base">
                     {project.description}
                 </p>
             </div>
