@@ -1,0 +1,16 @@
+.header {
+    position: absolute;
+    width: 527px;
+    height: 115px;
+
+    font-family: Aguafina Script;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 149px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    border: 1px solid #B06E9E;
+}

@@ -9,33 +9,38 @@
 .page-content {
     @apply flex flex-col w-full fixed pin-l pin-y;
 }
+
+/** Home **/
+.background_img {
+    @apply
+}
 /** Header **/
 .header-wrapper {
-    @apply flex items-center justify-between flex-wrap bg-grey py-12 px-10;
+    @apply flex items-center justify-between flex-wrap bg-red-lighter py-12 px-10;
 }
 .header-title {
     @apply text-white text-3xl font-mono;
 }
 /** Footer **/
 .footer-wrapper {
-    @apply px-8 py-2 bg-grey font-mono;
+    @apply px-8 py-2 bg-red-lighter font-mono;
 }
 .footer-content {
-    @apply flex justify-center text-white bg-grey;
+    @apply flex justify-center text-white bg-red-lighter;
 } 
 /** Content **/
 .content-wrapper {
-    @apply p-0 p-0 flex-1 overflow-auto bg-grey;
+    @apply p-0 p-0 flex-1 overflow-auto bg-red-lighter;
 }
 .content-text {
-    @apply text-grey-dark;
+    @apply text-grey-light;
 }
 .btn-wrapper {
     @apply flex leading-none p-6;
 }
 .btn {
     @apply bg-pink text-white text-sm p-2 px-4 mr-2 rounded-full no-underline;
-};
+}
 .btn:hover {
-    @apply bg-grey-light
+    @apply bg-pink-lighter;
 }

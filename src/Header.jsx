@@ -3,7 +3,7 @@ import { NavLink, Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <nav className="header-wrapper">
+        <nav className="header-wrapper" style={{ borderBottom: '4px solid white'}}>
             <h1 className="header-title">
                 <Link className="text-white hover:text-grey-light no-underline" to='/'>My Portfolio</Link>
             </h1>
