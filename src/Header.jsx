@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <nav className="header-wrapper" style={{ borderBottom: '4px solid white'}}>
             <h1 className="header-title">
-                <Link className="text-white hover:text-grey-light no-underline" to='/'>My Portfolio</Link>
+                <Link className="text-white hover:text-pink-lighter no-underline" to='/'>JULIE AHLQUIST</Link>
             </h1>
             <ul className="list-reset flex">
                 <li className="mr-6"><NavLink className="text-white hover:text-grey-light no-underline font-mono" to='/about'>About</NavLink></li>
