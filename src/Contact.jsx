@@ -1,5 +1,4 @@
 import React from 'react'
-import background_img from "./img/IMG_4238.jpg"
 
 const Contact = () => {
     return (
