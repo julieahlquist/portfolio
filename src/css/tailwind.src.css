@@ -1,29 +1,41 @@
 @tailwind preflight;
+@tailwind components;
+@tailwind utilities;
+
+/** Page **/
 .page-wrapper {
     @apply flex-wrap min-h-screen;
 }
 .page-content {
     @apply flex flex-col w-full fixed pin-l pin-y;
 }
-
-@tailwind components;
+/** Header **/
 .header-wrapper {
     @apply flex items-center justify-between flex-wrap bg-grey py-12 px-10;
 }
 .header-title {
     @apply text-white text-3xl font-mono;
 }
+/** Footer **/
 .footer-wrapper {
     @apply px-8 py-2 bg-grey font-mono;
 }
 .footer-content {
     @apply flex justify-center text-white bg-grey;
 } 
-
-@tailwind utilities;
+/** Content **/
 .content-wrapper {
     @apply p-0 p-0 flex-1 overflow-auto bg-grey;
 }
 .content-text {
     @apply text-grey-dark;
+}
+.btn-wrapper {
+    @apply flex leading-none p-6;
+}
+.btn {
+    @apply bg-pink text-white text-sm p-2 px-4 mr-2 rounded-full no-underline;
 };
+.btn:hover {
+    @apply bg-grey-light
+}

@@ -1,9 +1,11 @@
 [
     {
         "id": 1,
-        "name": "My First Website",
+        "name": "Fizz Buzz",
         "image": "src/img/Geting.jpg",
-        "description": "This was my first project. The guy lost, but won the popular vote!"
+        "description": "This was my first project. The guy lost, but won the popular vote!",
+        "website": "https://focused-easley-c2fd5b.netlify.com/",
+        "github": "https://github.com/julieahlquist/CA_fizzbuzz_week2"
     },
     {
         "id": 2,
