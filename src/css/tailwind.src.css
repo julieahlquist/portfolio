@@ -10,10 +10,10 @@
     @apply flex flex-col w-full fixed pin-l pin-y;
 }
 
-/** Home **/
+/* * Home *
 .background_img {
     @apply
-}
+} */
 /** Header **/
 .header-wrapper {
     @apply flex items-center justify-between flex-wrap bg-red-lighter py-12 px-10;

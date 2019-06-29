@@ -4,7 +4,6 @@ const Contact = () => {
     return (
         <div className="content-wrapper">
             <div className="test">
-                <img src={background_img} />
             </div>
             <div className="flex flex-wrap mb-4">
                 <div className="shadow-2xl">
