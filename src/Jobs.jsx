@@ -1,7 +1,6 @@
 import React, { Component } from "react"
 import axios from "axios"
 import JobCard from "./JobCard"
-import { UndrawBookLover } from 'react-undraw-illustrations';
 
 class Jobs extends Component {
     constructor () {
@@ -37,9 +36,7 @@ class Jobs extends Component {
         return (
             <div className="content-wrapper">
                 <div className="flex mb-4">
-                    <div className="w-1/4">
-                        <UndrawBookLover primaryColor='#12283a' height='200px' />
-                    </div>
+
                     <div className="w-3/4">
                         <h1>My Jobs</h1>
                         <p>This is the companies I been working at.</p>

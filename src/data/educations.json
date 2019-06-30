@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Craft Academy",
-        "image": "src/img/Geting.JPG",
+        "image": "src/img/CV/CA.jpg",
         "description": "Full-Stack developer",
         "time": "Summer 2019 - present",
         "website": "https://craftacademy.se/"
@@ -10,15 +10,15 @@
     {
         "id": 2,
         "name": "Karolinska Institutet",
-        "image": "src/img/Geting.JPG",
+        "image": "src/img/CV/KI.jpg",
         "description": "General Medicine",
         "time": "Spring 2019 - present",
         "website": "https://ki.se/"
     },
     {
         "id": 3,
-        "name": "Stockholm Business School",
-        "image": "src/img/Geting.JPG",
+        "name": "Stockholm Business School - Stockholm University",
+        "image": "src/img/CV/SU.jpg",
         "description": "Business Administration",
         "time": "Autumn 2019",
         "website": "https://www.sbs.su.se/"
@@ -26,7 +26,7 @@
     {
         "id": 4,
         "name": "First Faculty of Medicine - Charles University",
-        "image": "src/img/Geting.JPG",
+        "image": "src/img/CV/LF1.jpg",
         "description": "General Medicine",
         "time": "Autumn 2016 - Summer 2017",
         "website": "https://en.lf1.cuni.cz/"
@@ -34,7 +34,7 @@
     {
         "id": 5,
         "name": "Loxdale English Centre",
-        "image": "src/img/Geting.JPG",
+        "image": "src/img/CV/Loxdale.jpg",
         "description": "English Language course",
         "time": "Autumn 2015",
         "website": "https://loxdale.com/"

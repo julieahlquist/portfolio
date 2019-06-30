@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Synoptik",
-        "image": ".src/img/Geting.JPG",
+        "image": "src/img/CV/Synoptik.jpg",
         "description": "Optikerassistent",
         "time": "Winter 2017 - present",
         "website": "https://www.synoptik.se/"
@@ -10,7 +10,7 @@
     {
         "id": 2,
         "name": "Studybuddy",
-        "image": "src/img/Geting.JPG",
+        "image": "src/img/CV/StudyBuddy.jpg",
         "description": "Privat läxhjälp",   
         "time": "Winter 2016 - Summer 2019",
         "website": "https://studybuddy.se/"
@@ -18,7 +18,7 @@
     {
         "id": 3,
         "name": "Apoteksgruppen",
-        "image": "src/img/Apoteksgruppen.jpg",
+        "image": "src/img/CV/Apoteksgruppen.jpg",
         "description": "Apoteksassistent",
         "time": "Autumn 2014 - Summer 2016",
         "website": "https://www.apoteksgruppen.se/"
@@ -26,7 +26,7 @@
     {
         "id": 4,
         "name": "Region Gotland",
-        "image": "src/img/Geting.JPG",
+        "image": "src/img/CV/regGotland.jpg",
         "description": "Vårdbiträde",
         "time": "Summer 2017",
         "website": "https://www.gotland.se/halsasjukvard"
@@ -34,7 +34,7 @@
     {
         "id": 5,
         "name": "M/S Molly",
-        "image": "src/img/Geting.JPG",
+        "image": "src/img/CV/Molly.png",
         "description": "Servitris",
         "time": "Autumn - Winter 2017",
         "website": "https://www.msmolly.se/"
