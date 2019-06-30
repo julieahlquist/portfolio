@@ -10,7 +10,7 @@ const Header = () => {
             <ul className="list-reset flex">
                 <li className="mr-6"><NavLink className="text-white hover:text-pink-lighter no-underline font-mono" to='/about'>About</NavLink></li>
                 <li className="mr-6"><NavLink className="text-white hover:text-pink-lighter no-underline font-mono" to='/projects'>Projects</NavLink></li>
-                <li className="mr-6"><NavLink className="text-white hover:text-pink-lighter no-underline font-mono" to='/CV'>CV</NavLink></li>
+                <li className="mr-6"><NavLink className="text-white hover:text-pink-lighter no-underline font-mono" to='/cv'>CV</NavLink></li>
             </ul>
         </nav>
     )

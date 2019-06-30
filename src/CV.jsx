@@ -1,18 +1,18 @@
-import React from 'react'
+import React from "react"
+import Jobs from "./Jobs"
+import Education from "./Education"
 
-const Contact = () => {
+
+const Cv = () => {
     return (
-        <div className="content-wrapper">
-            <div className="test">
+        <div>
+            <div>
+            <Jobs />
             </div>
-            <div className="flex flex-wrap mb-4">
-                <div className="shadow-2xl">
-                    <h1>Contacts</h1>
-                    <p>Ipsum dolor dolorem consectetur est velit fugiat. Dolorem provident corporis fuga saepe distinctio ipsam? Et quos harum excepturi dolorum molestias?</p>
-                </div>
+            <div>
+            <Education />
             </div>
         </div>
     )
 }
-
-export default Contact
+export default Cv
