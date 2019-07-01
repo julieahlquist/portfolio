@@ -8,16 +8,15 @@ const EducationCard = (props) => {
             <img src={education.image} className="block h-auto w-full rounded-full" style={{ height: '180px', objectFit: 'cover' }} />
 
             <div className="px-6 py-4" style={{ minHeight: '80px' }} >
-                <div className="font-mono text-xl text-center text-grey-lighter mb-2">{education.name}</div>
-                <p className="text-grey-lighter text-center text-base">
-                    {education.description}
-                    {education.time}
-                </p>
+            <div className="btn-wrapper">
+                <a href={education.website} target="_blank" className="btn">{education.name}</a>
+            </div>
+                <div className="text-grey-lighter text-center text-base">
+                    <b>{education.description}</b>
+                    <p>{education.time}</p>
+                </div>
             </div>
 
-            <div className="btn-wrapper">
-                <a href={education.website} target="_blank" className="btn">Website</a>
-            </div>
         </div>
     )
 }

@@ -8,7 +8,7 @@ const About = () => {
                 <div className="w-full lg:w-1/4 md:w-1/2">
                     <UndrawWebsiteSetup primaryColor='#12283a' height='200px' />
                 </div>
-                <div className="w-full lg:w-3/4 md:w-1/2">
+                <div className="w-full lg:w-3/4 md:w-1/2 text-white font-mono">
                     <h1>About Me</h1>
                     <p>Ipsum dolor dolorem consectetur est velit fugiat. Dolorem provident corporis fuga saepe distinctio ipsam? Et quos harum excepturi dolorum molestias?</p>
                 </div>

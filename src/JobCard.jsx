@@ -9,12 +9,12 @@ const JobCard = (props) => {
 
             <div className="px-6 py-4" style={{ minHeight: '80px' }} >
                 <div className="btn-wrapper">
-                <a href={job.website} target="_blank" className="btn">{job.name}</a>
+                <a href={job.website} className="btn">{job.name}</a>
             </div>
-                <p className="text-grey-lighter text-center text-base">
-                    {job.description}
-                    {job.time}
-                </p>
+                <div className="text-grey-lighter text-center text-base">
+                    <b>{job.description}</b>
+                    <p>{job.time}</p>
+                </div>
             </div>
         </div>
     )

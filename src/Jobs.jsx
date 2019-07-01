@@ -37,9 +37,8 @@ class Jobs extends Component {
             <div className="content-wrapper">
                 <div className="flex mb-4">
 
-                    <div className="w-3/4">
-                        <h1>My Jobs</h1>
-                        <p>This is the companies I been working at.</p>
+                    <div className="w-3/4 text-white font-mono">
+                        <h1>Work experience</h1>
                     </div>
 
                 </div>

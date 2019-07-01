@@ -11,6 +11,8 @@
         "id": 2,
         "name": "ᗩᗪᗪᖇEᔕᔕ ᗷOOK",
         "image": "src/img/Sintra.jpg",
-        "description": "Designing user interfaces is fun. I want to learn more about that..."
+        "description": "Save your contacts online!",
+        "website": "Soon",
+        "github": "hhttps://github.com/julieahlquist/address-book/tree/01-project-setup"
     }
 ]
