@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "name": "Fizz Buzz",
+        "name": "千丨乙乙 乃ㄩ乙乙",
         "image": "src/img/Geting.JPG",
         "description": "This was my first project. The guy lost, but won the popular vote!",
         "website": "https://focused-easley-c2fd5b.netlify.com/",
@@ -9,14 +9,10 @@
     },
     {
         "id": 2,
-        "name": "Address Book",
+        "name": "ᗩᗪᗪᖇEᔕᔕ ᗷOOK",
         "image": "src/img/Sintra.jpg",
-        "description": "Designing user interfaces is fun. I want to learn more about that..."
-    },
-    {
-        "id": 3,
-        "name": "Mobile UX",
-        "image": "https://images.unsplash.com/photo-1534237886190-ced735ca4b73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
-        "description": "I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding."
+        "description": "Save your contacts online!",
+        "website": "Soon",
+        "github": "hhttps://github.com/julieahlquist/address-book/tree/01-project-setup"
     }
 ]

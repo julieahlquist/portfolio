@@ -8,9 +8,9 @@ const Header = () => {
                 <Link className="text-white hover:text-pink-lighter no-underline" to='/'>JULIE AHLQUIST</Link>
             </h1>
             <ul className="list-reset flex">
-                <li className="mr-6"><NavLink className="text-white hover:text-grey-light no-underline font-mono" to='/about'>About</NavLink></li>
-                <li className="mr-6"><NavLink className="text-white hover:text-grey-light no-underline font-mono" to='/projects'>Projects</NavLink></li>
-                <li className="mr-6"><NavLink className="text-white hover:text-grey-light no-underline font-mono" to='/contact'>Contact</NavLink></li>
+                <li className="mr-6"><NavLink className="text-white hover:text-pink-lighter no-underline font-mono" to='/about'>About</NavLink></li>
+                <li className="mr-6"><NavLink className="text-white hover:text-pink-lighter no-underline font-mono" to='/projects'>Projects</NavLink></li>
+                <li className="mr-6"><NavLink className="text-white hover:text-pink-lighter no-underline font-mono" to='/cv'>CV</NavLink></li>
             </ul>
         </nav>
     )
